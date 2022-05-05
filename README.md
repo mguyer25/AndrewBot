@@ -1,3 +1,9 @@
 # AndrewBot
 A Discord bot that is an Andrew soundboard.
-Checking if pushing works
+
+Packages installed:
+Discord (discord.py)
+youtube_dl
+Flask
+ffmpeg
+PyNaCl
