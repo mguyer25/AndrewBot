@@ -4,8 +4,7 @@ import discord
 from discord.ext import commands
 import youtube_dl
 import os
-
-TOKEN = 'OTcxNjIwNzIyMzY5NzczNTg5.YnNKUA.GVRXUfU02IBYbh10qv19fQaG-to'
+#from dotenv import load_dotenv
 
 bot = commands.Bot(command_prefix = '&')
 #client = discord.Client()
@@ -89,4 +88,9 @@ async def stop(ctx):
 	voice = discord.utils.get(bot.voice_clients, guild=ctx.guild)
 	voice.stop()
 
-bot.run(TOKEN)
+key = None
+value = None # This is the authentication token of the bot
+with open('./.env') as f:
+	for line in f:
+		key, value = line.strip().split('=', 1)
+bot.run(value)
