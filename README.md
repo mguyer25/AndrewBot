@@ -33,3 +33,7 @@ Instructions on set up:
         placed into your file system
     8) ffmpeg should now be installed on your system
 - To execute the Python program: python main.py
+- Create a .env file with a key-value pair
+    Ex: TOKEN=value, where value is the authentication token for that Discord bot.
+    This .env file and the information inside should not be shared with anyone
+    you don't want to control the bot.
