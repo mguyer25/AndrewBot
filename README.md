@@ -1,6 +1,8 @@
-# AndrewBot
-A Discord bot that is an Andrew soundboard.
+A Discord bot that is an Andrew soundboard and a Discord bot, JukeBot, for
+a music bot.
 
+
+# Andrew Bot
 Packages installed:
 Discord (discord.py)
 youtube_dl
@@ -37,3 +39,5 @@ Instructions on set up:
     Ex: TOKEN=value, where value is the authentication token for that Discord bot.
     This .env file and the information inside should not be shared with anyone
     you don't want to control the bot.
+
+# JukeBot
