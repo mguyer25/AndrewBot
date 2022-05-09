@@ -17,13 +17,13 @@ class SoundTrigger(commands.Cog):
     # List of filenames for audio files.
     # The index of the audio file corresponds to
     global sounds_dir
-    sounds_dir = "./sounds_lib/" 
+    sounds_dir = "./sounds-lib/" 
     global audio_files
     audio_files = []
 
     def __init__(self, bot):
         self.bot = bot
-        for file in os.listdir("./sounds_lib/"):
+        for file in os.listdir(sounds_dir):
             audio_files.append(file)
 
     @commands.command(name="sound", pass_context=True)

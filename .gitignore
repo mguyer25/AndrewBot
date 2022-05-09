@@ -1,3 +1,7 @@
+# Files personal to my Andrew Bot repo
+sounds-lib/
+main_copy.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
