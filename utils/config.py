@@ -1,8 +1,8 @@
+import discord
+
 '''
 Config file for Andrew (soundboard) Bot.
 '''
-
-import discord
 
 command_prefix = "?"
 

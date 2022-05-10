@@ -18,6 +18,7 @@ class Help(commands.Cog):
             user calling this command is in.")
         em.add_field(name="leave", value="Leave the voice channel that the \
             user calling this command is in.")
+        em.add_field(name="sound <n>", value="Plays the nth soundboard sound")
         em.add_field(name="play <YouTube video URL>", value="Play an audio \
             file from the YouTube URL.")
         em.add_field(name="pause", value="Pauses the current audio that is \
